@@ -49,5 +49,7 @@ chelsea = Team('Chelsea', 'Football', 'England', 'English Premier League',
                'London', 1905)
 barca = Team('Barcelona', 'Football', 'Spain', 'La Liga', 'Blue and Red',
              valverde.profile(), 'Camp Nou', 'Barca', 'Barcelona', 1899)
+sixers = Team('Philadelphia 76ers', 'Basketball', 'USA', 'NBA', 'Blue, White and Red',
+              brown.profile(),'Wells Fargo Center', 'Sixers', 'Philadelphia', 1946)
 
-print(chelsea.profile(), barca.profile(), kerr.name)
+print(chelsea.profile(), barca.profile(), sixers.profile())
