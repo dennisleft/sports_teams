@@ -36,6 +36,10 @@ class Team(Manager):
                f'Town: {self.town}\nAKA: {self.aka}\nCurrent Manager-> {self.manager}'
 
 
+class Player(Manager):
+    pass
+
+
 # Manager
 sarri = Manager('Maurizio Sarri', 'Italian', 1959)
 valverde = Manager('Ernesto Valverde', 'Spanish', 1964)
@@ -50,6 +54,6 @@ chelsea = Team('Chelsea', 'Football', 'England', 'English Premier League',
 barca = Team('Barcelona', 'Football', 'Spain', 'La Liga', 'Blue and Red',
              valverde.profile(), 'Camp Nou', 'Barca', 'Barcelona', 1899)
 sixers = Team('Philadelphia 76ers', 'Basketball', 'USA', 'NBA', 'Blue, White and Red',
-              brown.profile(),'Wells Fargo Center', 'Sixers', 'Philadelphia', 1946)
+              brown.profile(), 'Wells Fargo Center', 'Sixers', 'Philadelphia', 1946)
 
 print(chelsea.profile(), barca.profile(), sixers.profile())
