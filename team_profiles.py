@@ -40,7 +40,8 @@ class Team(Manager):
 sarri = Manager('Maurizio Sarri', 'Italian', 1959)
 valverde = Manager('Ernesto Valverde', 'Spanish', 1964)
 kerr = Manager('Steve Kerr', 'American', 1965)
-print(valverde.profile())
+brown = Manager('Brett Brown', 'American', 1961)
+print(valverde.profile(), brown.profile())
 
 # Team
 chelsea = Team('Chelsea', 'Football', 'England', 'English Premier League',
